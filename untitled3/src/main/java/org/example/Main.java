@@ -108,7 +108,7 @@ public class Main {
             System.out.print("Новое описание задачи: ");
             String newDescription = scanner.nextLine();
             Task task = tasks.get(index - 1);
-            task = new Task(newName, newDescription); // заменяем объект
+            task = new Task(newName, newDescription); 
             tasks.set(index - 1, task);
             System.out.println("Задача обновлена!");
         } else {
